@@ -15,8 +15,8 @@ Thank you for considering contributing. This project aims to be a useful, reprod
 ## Development setup
 
 ```bash
-git clone https://github.com/matingathani/medical-cancer-cnn.git
-cd medical-cancer-cnn
+git clone https://github.com/matingathani/medical-cancer-AIModel.git
+cd medical-cancer-AIModel
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

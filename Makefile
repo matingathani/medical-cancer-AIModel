@@ -1,4 +1,4 @@
-# Convenience targets for medical-cancer-cnn
+# Convenience targets for medical-cancer-AIModel
 # Use: make install, make data, make train, etc.
 
 PYTHON ?= python3

@@ -37,7 +37,7 @@ Use **convolutional neural networks (CNNs)** to classify medical images into **c
 Creates dummy data, trains for a few epochs, evaluates, and saves sample predictions:
 
 ```bash
-cd medical-cancer-cnn
+cd medical-cancer-AIModel
 python -m venv .venv && source .venv/bin/activate   # or: .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python run_demo.py

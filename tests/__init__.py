@@ -1,1 +1,1 @@
-# Tests for medical-cancer-cnn
+# Tests for medical-cancer-AIModel

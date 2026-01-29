@@ -8,7 +8,7 @@ Your repo is **committed locally** and the remote is set. Create the GitHub repo
 
 1. **Create the repository**
    - Go to: **https://github.com/new**
-   - **Repository name:** `medical-cancer-cnn`
+   - **Repository name:** `medical-cancer-AIModel`
    - **Description:** `Open-source CNN pipeline for cancer detection from medical images. Train on PatchCamelyon or your data.`
    - **Public**
    - **Do not** add a README, .gitignore, or license (we already have them)
@@ -16,7 +16,7 @@ Your repo is **committed locally** and the remote is set. Create the GitHub repo
 
 2. **Push from your machine**
    ```bash
-   cd /Users/matingathani/medical-cancer-cnn
+   cd /Users/matingathani/medical-cancer-AIModel
    git push -u origin main
    ```
    If prompted for credentials, use your GitHub username and a **Personal Access Token** (not your password).  
@@ -39,20 +39,20 @@ Your repo is **committed locally** and the remote is set. Create the GitHub repo
 
 2. **Create repo and push**
    ```bash
-   cd /Users/matingathani/medical-cancer-cnn
-   gh repo create medical-cancer-cnn --public --source=. --remote=origin --push --description "Open-source CNN pipeline for cancer detection from medical images"
+   cd /Users/matingathani/medical-cancer-AIModel
+   gh repo create medical-cancer-AIModel --public --source=. --remote=origin --push --description "Open-source CNN pipeline for cancer detection from medical images"
    ```
 
 3. **Add topics**
    ```bash
-   gh repo edit matingathani/medical-cancer-cnn --add-topic medical-imaging --add-topic cancer-detection --add-topic deep-learning --add-topic pytorch --add-topic histopathology --add-topic open-source
+   gh repo edit matingathani/medical-cancer-AIModel --add-topic medical-imaging --add-topic cancer-detection --add-topic deep-learning --add-topic pytorch --add-topic histopathology --add-topic open-source
    ```
 
 ---
 
 ## After pushing
 
-- **Repo URL:** https://github.com/matingathani/medical-cancer-cnn
+- **Repo URL:** https://github.com/matingathani/medical-cancer-AIModel
 - **CI:** GitHub Actions will run tests on every push/PR (see the Actions tab).
 - **Attract users:** Share the repo on LinkedIn, Twitter/X, or relevant communities; add a clear README description and topics as above.
 

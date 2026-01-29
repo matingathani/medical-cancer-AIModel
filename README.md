@@ -47,8 +47,8 @@ This project is **not** a medical device and is not for direct clinical diagnosi
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/matingathani/medical-cancer-cnn.git
-cd medical-cancer-cnn
+git clone https://github.com/matingathani/medical-cancer-AIModel.git
+cd medical-cancer-AIModel
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -134,7 +134,7 @@ See [docs/DEMO_PITCH.md](docs/DEMO_PITCH.md) for a one-pager to use when present
 ## Project structure
 
 ```text
-medical-cancer-cnn/
+medical-cancer-AIModel/
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
@@ -182,10 +182,10 @@ medical-cancer-cnn/
 
 ## Making it public on GitHub
 
-1. **Create a new repo** on GitHub (e.g. `medical-cancer-cnn`), then:
+1. **Create a new repo** on GitHub (e.g. `medical-cancer-AIModel`), then:
 
    ```bash
-git remote add origin https://github.com/matingathani/medical-cancer-cnn.git
+git remote add origin https://github.com/matingathani/medical-cancer-AIModel.git
   git branch -M main
   git push -u origin main
 ```
@@ -207,7 +207,7 @@ git remote add origin https://github.com/matingathani/medical-cancer-cnn.git
   @software{medical_cancer_cnn,
     title = {Medical Cancer CNN},
     author = {Medical Cancer CNN Contributors},
-    url = {https://github.com/YOUR_USERNAME/medical-cancer-cnn},
+    url = {https://github.com/matingathani/medical-cancer-AIModel},
     license = {MIT},
     year = {2025}
   }

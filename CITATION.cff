@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: "Medical Cancer CNN Contributors"
     given-names: ""
-url: "https://github.com/matingathani/medical-cancer-cnn"
-repository-code: "https://github.com/matingathani/medical-cancer-cnn"
+url: "https://github.com/matingathani/medical-cancer-AIModel"
+repository-code: "https://github.com/matingathani/medical-cancer-AIModel"
 license: MIT
 keywords:
   - medical imaging
