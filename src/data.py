@@ -62,6 +62,8 @@ def get_dataloaders(config: dict):
     train_tf = get_transforms(image_size, is_train=True)
     eval_tf = get_transforms(image_size, is_train=False)
 
+    # pin_memory only on CUDA (not supported on MPS/CPU); avoids Mac warning
+    pin_memory = torch.cuda.is_available()
     loaders = {}
     for split in ("train", "val", "test"):
         split_dir = root / split
@@ -73,7 +75,7 @@ def get_dataloaders(config: dict):
             batch_size=batch_size,
             shuffle=(split == "train"),
             num_workers=num_workers,
-            pin_memory=True,
+            pin_memory=pin_memory,
         )
     if "train" not in loaders:
         raise FileNotFoundError(f"No train folder under {root}. Create data/train/cancer/ and data/train/normal/.")
