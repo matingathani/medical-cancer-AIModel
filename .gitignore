@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.pyc
+
+# Config (user-specific)
+.env
+.env.local
+config.yaml
+
+# Data and outputs (do not commit)
+data/
+data_pcam/
+outputs/
+outputs_demo/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+*.swp

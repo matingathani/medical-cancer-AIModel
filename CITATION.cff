@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Medical Cancer CNN - Open-source pipeline for cancer detection from medical images"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Medical Cancer CNN Contributors"
+    given-names: ""
+url: "https://github.com/matingathani/medical-cancer-cnn"
+repository-code: "https://github.com/matingathani/medical-cancer-cnn"
+license: MIT
+keywords:
+  - medical imaging
+  - cancer detection
+  - CNN
+  - histopathology
+  - deep learning
+abstract: >
+  Reproducible pipeline for training and evaluating CNNs on medical imaging
+  (e.g. histopathology, skin lesions, chest X-rays). Includes medical-grade
+  metrics (sensitivity, specificity, AUC-ROC), PatchCamelyon download script,
+  and demo for research and education.

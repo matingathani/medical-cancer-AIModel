@@ -1,0 +1,28 @@
+# Medical Cancer CNN — copy to config.yaml
+
+# Data
+data:
+  root: data                    # root dir containing train/val/test
+  image_size: [224, 224]        # H, W (ResNet expects 224)
+  batch_size: 32
+  num_workers: 4
+  # Optional: CSV with columns path, label (0=normal, 1=cancer)
+  # train_csv: null
+  # val_csv: null
+  # test_csv: null
+
+# Model
+model:
+  name: resnet18                 # resnet18 | cnn_simple
+  num_classes: 2                 # binary: normal vs cancer
+  pretrained: true               # ImageNet pretrained for resnet18
+
+# Training
+train:
+  epochs: 20
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  seed: 42
+  output_dir: outputs
+  save_every: 5                 # save checkpoint every N epochs
+  early_stopping_patience: 5    # stop if val loss doesn't improve

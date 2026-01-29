@@ -1,0 +1,22 @@
+# Quick demo config — fewer epochs, smaller batch for showcase
+# Usage: copy to config.yaml before run_demo.py, or run_demo.py overrides these internally
+
+data:
+  root: data
+  image_size: [224, 224]
+  batch_size: 16
+  num_workers: 0
+
+model:
+  name: resnet18
+  num_classes: 2
+  pretrained: true
+
+train:
+  epochs: 5
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  seed: 42
+  output_dir: outputs_demo
+  save_every: 2
+  early_stopping_patience: 3
